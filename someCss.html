@@ -6,6 +6,7 @@
             p {text-align:center;}
         </style>
     </head>
+
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -16,6 +17,28 @@ img {
 }
 </style>
 </head>
+
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 10%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+
 <body style="background-color:lightblue">
     <h1 style="font-family:monospace">
          Snow Lake, Snoqualmie Region
@@ -28,7 +51,7 @@ img {
     </h3>
     <h3 style="font-family:'Times New Roman', Times, serif">
         Elevation: <u>Gain: 1800ft.</u> 
-        <div style="margin-left: 75px"><u> Highest Point: 4400ft.</u></div>
+        <div style="margin-left: 87px"><u> Highest Point: 4400ft.</u></div>
     </h3>
 <img src=https://www.wta.org/site_images/hikes/dsc_0030.jpg/@@images/c64ce7ab-41c8-4149-acf0-04f9759fadb3.jpeg style="height:20%; width:50%;">
 
@@ -42,6 +65,16 @@ img {
 <p style= "font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
     <i>Beware of hiking on the Snow Lake trail during the winter. Ensure that you have prior experience in avalanche terrain or are traveling with someone who does when there is snow present.</i>
 </p>
+
+<div class="row">
+  <div class="column">
+    <img src=http://eskipaper.com/images/amazing-winter-mountain-wallpaper-1.jpg style="width:50px; height:50px">
+  </div>
+  <div class="column">
+    <img src=https://farm5.staticflickr.com/4142/4899888103_8445e8257e_b.jpg style="width:50px; height:50px">
+  </div> 
+</div>
+
 </body>
 </html>
 
