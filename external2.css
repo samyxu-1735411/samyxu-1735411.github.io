@@ -1,5 +1,5 @@
 body { 
-    background-color:rosybrown;
+    background-color:rgb(255, 193, 193);
     position: relative;
     width: 750px;
     margin: 0 auto;
@@ -11,7 +11,7 @@ h2 {
 }
 .field {
     color: darkgreen;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
 }
 input {
@@ -20,4 +20,9 @@ input {
     border-bottom-style: dashed;
     border-left-style: solid;
     border-radius: 5px;
+}
+legend {
+    Font-size: 30px;
+    font-variant: small-caps;
+    font-style: oblique;
 }
