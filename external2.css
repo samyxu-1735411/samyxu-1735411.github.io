@@ -1,0 +1,19 @@
+body { 
+    background-color:rosybrown;
+}
+h2 {
+    color: lightseagreen;
+    font-family: monospace;
+    text-align: center;
+}
+.field {
+    color: darkslategray;
+
+}
+input {
+    border-top-style: dashed;
+    border-right-style: solid;
+    border-bottom-style: dashed;
+    border-left-style: solid;
+    border-radius: 5px;
+}
