@@ -26,3 +26,10 @@ legend {
     font-variant: small-caps;
     font-style: oblique;
 }
+fieldset {
+    border-color: brown;
+    border-width: medium;
+    border-left:6px solid navy;
+    background-color: rgb(255, 217, 217)
+
+}
