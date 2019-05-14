@@ -36,5 +36,5 @@ fieldset {
 .submit {
     width: 100%;
     text-decoration: underline;
-    text-transform: capitalize;
+    font-style: italic;
 }
