@@ -34,7 +34,7 @@ fieldset {
     background-color: rgb(255, 217, 217)
 }
 .submit {
-    position: center;
+    width: 100%;
     text-decoration: underline;
     text-transform: capitalize;
 }
